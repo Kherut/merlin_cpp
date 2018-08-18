@@ -1,4 +1,4 @@
-# merlin_cpp
+# Merlin C++ Library
 An open-source C++ library for Merlin.
 
 To compile execute
