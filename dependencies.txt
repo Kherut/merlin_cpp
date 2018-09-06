@@ -1,1 +1,2 @@
 libcurlpp
+libmicrohttpd-dev
