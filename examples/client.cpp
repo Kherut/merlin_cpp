@@ -1,9 +1,9 @@
-#include "merlin/home/device.hpp"
+#include "merlin.hpp"
 #include <iostream>
 #include <string>
 
 int main() {
-    Merlin::Home::Device::Client c("arch_hpcompaq");
+    Merlin::Client c("arch_hpcompaq");
 
     std::string msg;
     
