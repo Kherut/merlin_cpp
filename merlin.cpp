@@ -1,4 +1,4 @@
-#include "merlin.hpp"
+#include <merlin.hpp>
 #include <iostream>
 #include <string>
 #include <cstring>
@@ -156,7 +156,7 @@ namespace Merlin {
         curlpp::Cleanup cu;
         std::ostringstream os;
 
-        os << curlpp::options::Url(std::string("http://" + host + ":" + std::to_string(port) + "/?ip=" + ip + "&name=" + hostname + "&role=" + role));
+        os << curlpp::options::Url(std::string("http://" + host + ":" + std::to_string(port) + "/control/devices/new/" + ip + "/" + hostname + "/" + role));
 
         return atoi(os.str().c_str());
     }
@@ -299,7 +299,7 @@ namespace Merlin {
         curlpp::Cleanup cu;
         std::ostringstream os;
 
-        os << curlpp::options::Url(std::string("http://" + host + ":" + std::to_string(port) + "/?ip=" + ip + "&name=" + hostname + "&role=" + role));
+        os << curlpp::options::Url(std::string("http://" + host + ":" + std::to_string(port) + "/control/devices/new/" + ip + "/" + hostname + "/" + role));
 
         return atoi(os.str().c_str());
     }

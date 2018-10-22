@@ -1,9 +1,9 @@
-#include "merlin.hpp"
+#include <merlin.hpp>
 #include <iostream>
 #include <string>
 
 int main() {
-    Merlin::Client c("arch_hpcompaq");
+    Merlin::Client c("orangepizero");
 
     std::string msg;
     

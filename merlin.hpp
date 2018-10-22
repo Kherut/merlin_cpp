@@ -15,7 +15,7 @@ namespace Merlin {
         std::string _get_ip();
         
         public:
-            Client(std::string hostname, int = 256, int = 51000);
+            Client(std::string hostname, int = 256, int = 8080);
             ~Client();
 
             std::string send(std::string message);
@@ -34,7 +34,7 @@ namespace Merlin {
         std::string _get_ip();
 
         public:
-            Server(std::string hostname, int = 256, int = 51000);
+            Server(std::string hostname, int = 256, int = 8080);
             ~Server();
 
             int receive(std::string destination, std::string = "RECV");
