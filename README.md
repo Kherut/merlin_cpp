@@ -1,6 +1,7 @@
 # Merlin C++ Library
 
-## The library is not ready yet, don't use it! 
+## The library is not ready yet, do not use it! 
+The problem is that *curlpp* lib misses something, but we don't know what yet. We're going to use *curl* alone (then it should work), so stay tuned.
 
 An open-source C++ library for Merlin.
 
